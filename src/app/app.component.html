@@ -1,0 +1,30 @@
+<nav>
+  <span class="nav-title">
+      <img src="../assets/imgs/évoquer-logo.png" width="20" alt=""> 
+      <span class="darkest-blue-16-700"> {{title}}</span>
+  </span>
+  <!-- (click)="openUserInfoModal(userInfoModal, $event)" -->
+  <div class="user-info" (click)="openUserInfoModal(userInfoModal, $event)">
+      <span class="user-img"><img src="../assets/imgs/temp-user-img.png" alt=""></span>
+      <span class="username darkest-blue-14-400">Hi, <i>User</i>!</span>
+      <img src="../assets/custom-icons/black-down-arrow.svg" alt="">
+  </div>
+</nav>
+<div>
+  <router-outlet></router-outlet>
+  <app-event-view></app-event-view>
+</div>
+<footer>
+
+</footer>
+
+
+<ng-template #userInfoModal>
+  <div class="modal-content">
+      <span class="darkest-blue-14-400">My Profile</span>
+      <button class="logout-btn" (click)="logout()">
+          <span>Logout</span>
+          <img src="../assets/custom-icons/logout.svg" alt="">
+      </button>
+  </div>
+</ng-template>

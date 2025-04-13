@@ -1,0 +1,101 @@
+nav {
+    padding: 12px 32px;
+    justify-content: space-between;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 11;
+  }
+
+  .nav-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .navbar-content {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding-left: 20px;
+  }
+  
+  .logout-btn {
+    display: inline-flex;
+    height: 36px;
+    width: auto;
+  
+    padding: 10px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1.5px solid #a50c22;
+    background: #fff;
+    color: #a50c22;
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-feature-settings: "liga" off, "clig" off;
+    font-family: "Noto Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    &:hover {
+      background: #fdecec;
+    }
+    &:focus-visible {
+      border: 1.5px solid #a50c22;
+    }
+  }
+  
+  .modal-content {
+    display: grid;
+    padding: 1rem 1.25rem;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 0.75rem;
+  }
+  
+  .user-img {
+    display: flex;
+    width: 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 200px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: #fff;
+    img {
+      border-radius: 50%;
+    }
+  }
+  
+  .username {
+    display: -webkit-box;
+    max-width: 142.121px;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  
+  .user-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    gap: 0.5rem;
+    padding: 0.35rem 1rem;
+    border-radius: 10px;
+    &:hover {
+      background: #e7e7e7;
+    }
+  }

@@ -1,0 +1,111 @@
+{
+    "status": 200,
+    "message": "Successfully fetched event-list",
+    "data": [
+        {
+            "id": "1a56a587-482b-4e59-bf37-4fc7011f1831",
+            "title": "Marketing Strategy Meeting",
+            "date": "2025-04-03",
+            "location": "Conference Room A",
+            "desc": "Discuss upcoming quarter's marketing campaigns and KPIs."
+        },
+        {
+            "id": "fa7b3260-f182-490c-86a0-d51f8bcd93f1",
+            "title": "Design Review Session",
+            "date": "2025-04-05",
+            "location": "Zoom",
+            "desc": "Team review of new product UI designs and feedback session."
+        },
+        {
+            "id": "2cddb491-91c1-4cb4-8b3c-4d79b9d7c94e",
+            "title": "Monthly Townhall",
+            "date": "2025-04-06",
+            "location": "Auditorium",
+            "desc": "Leadership presents company updates and answers Q&A."
+        },
+        {
+            "id": "8588eb76-bb7a-4ee5-92da-e20ef09e66a2",
+            "title": "Client Demo Presentation",
+            "date": "2025-04-08",
+            "location": "Google Meet",
+            "desc": "Demo the new software module to the client stakeholders."
+        },
+        {
+            "id": "ff0993be-b9e6-49d3-81d1-69fa917b6f7d",
+            "title": "Product Sprint Planning",
+            "date": "2025-04-10",
+            "location": "Jira Board",
+            "desc": "Sprint planning for the next 2 weeks with dev and QA teams."
+        },
+        {
+            "id": "bd0d73bb-bc3e-4b50-b0ee-847fc8a63f2f",
+            "title": "Webinar: Tech Trends 2025",
+            "date": "2025-04-11",
+            "location": "Webex",
+            "desc": "External webinar covering upcoming technology and AI trends."
+        },
+        {
+            "id": "6c1b2608-5b1e-47bb-98f2-40244ef2469a",
+            "title": "Team Building Activity",
+            "date": "2025-04-12",
+            "location": "Central Park",
+            "desc": "Fun team-building activities and games with HR and staff."
+        },
+        {
+            "id": "e2d17af7-844f-49ef-9051-8503f576570e",
+            "title": "QA Automation Kickoff",
+            "date": "2025-04-14",
+            "location": "Lab 3",
+            "desc": "Kickoff meeting to introduce automation framework goals."
+        },
+        {
+            "id": "fbf9995c-940b-4a87-b12a-f2b297fbcf58",
+            "title": "Security Awareness Training",
+            "date": "2025-04-16",
+            "location": "Online Learning Portal",
+            "desc": "Mandatory training for all employees on security protocols."
+        },
+        {
+            "id": "db88fa91-382a-4c37-a77f-9d8a2363ae51",
+            "title": "Sales Forecast Meeting",
+            "date": "2025-04-17",
+            "location": "Conference Room B",
+            "desc": "Review pipeline data and projections for next quarter."
+        },
+        {
+            "id": "d4fc9345-5046-43c6-9941-b7d774f8cbbb",
+            "title": "UX Feedback Session",
+            "date": "2025-04-19",
+            "location": "Teams",
+            "desc": "Collect feedback from users on recent UX improvements."
+        },
+        {
+            "id": "015b45a5-9b9e-4ac4-b905-079df6f9dced",
+            "title": "Data Analytics Workshop",
+            "date": "2025-04-21",
+            "location": "Training Room 2",
+            "desc": "Hands-on workshop covering business insights using data."
+        },
+        {
+            "id": "042645dc-43b2-4e5c-9c8b-e5f1f2238168",
+            "title": "Engineering Hackathon",
+            "date": "2025-04-23",
+            "location": "Tech Hub",
+            "desc": "24-hour coding challenge to prototype innovative solutions."
+        },
+        {
+            "id": "20f2df4b-4b14-44ae-bfcf-9b51ef65c380",
+            "title": "Board of Directors Meeting",
+            "date": "2025-04-25",
+            "location": "Executive Lounge",
+            "desc": "Quarterly meeting with the board to present performance and goals."
+        },
+        {
+            "id": "3854d35c-bcbc-4306-b093-82fe8b1f9794",
+            "title": "CSR Volunteering Day",
+            "date": "2025-04-28",
+            "location": "Local NGO Center",
+            "desc": "Company-wide community service event to give back."
+        }
+    ]
+}

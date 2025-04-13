@@ -1,0 +1,211 @@
+{
+    "status": 200,
+    "message": "Successfully Fetched the list for events on calendar",
+    "month": "February 2024",
+    "data": [
+        {
+            "date": 1,
+            "day": "Thursday",
+            "events": []
+        },
+        {
+            "date": 2,
+            "day": "Friday",
+            "events": []
+        },
+        {
+            "date": 3,
+            "day": "Saturday",
+            "events": [
+                {
+                    "title": "🎉 Party",
+                    "subtitle": "Annual company celebration",
+                    "desc": "Join us for the office annual party at 7 PM with food, drinks, and music. 🥳 Agenda: Awards, networking, and performances."
+                }
+            ]
+        },
+        {
+            "date": 4,
+            "day": "Sunday",
+            "events": []
+        },
+        {
+            "date": 5,
+            "day": "Monday",
+            "events": [
+                {
+                    "title": "📅 Meeting",
+                    "subtitle": "Monthly Team Sync",
+                    "desc": "Team sync scheduled at 11 AM to discuss progress and blockers. 🧩 Agenda: Sprint review and planning."
+                }
+            ]
+        },
+        {
+            "date": 6,
+            "day": "Tuesday",
+            "events": []
+        },
+        {
+            "date": 7,
+            "day": "Wednesday",
+            "events": []
+        },
+        {
+            "date": 8,
+            "day": "Thursday",
+            "events": []
+        },
+        {
+            "date": 9,
+            "day": "Friday",
+            "events": [
+                {
+                    "title": "🏥 Checkup",
+                    "subtitle": "Health check-up appointment",
+                    "desc": "Health check-up at Apollo Hospital, 10 AM slot. 🩺 Agenda: Routine wellness exam and reports collection."
+                }
+            ]
+        },
+        {
+            "date": 10,
+            "day": "Saturday",
+            "events": []
+        },
+        {
+            "date": 11,
+            "day": "Sunday",
+            "events": [
+                {
+                    "title": "🎬 Movie",
+                    "subtitle": "Dune 2 screening",
+                    "desc": "Watch Dune 2 at 8 PM at INOX Theatre with friends. 🍿 Agenda: Grab snacks and enjoy the sci-fi thrill."
+                }
+            ]
+        },
+        {
+            "date": 12,
+            "day": "Monday",
+            "events": []
+        },
+        {
+            "date": 13,
+            "day": "Tuesday",
+            "events": []
+        },
+        {
+            "date": 14,
+            "day": "Wednesday",
+            "events": [
+                {
+                    "title": "❤️ Date",
+                    "subtitle": "Valentine’s Day dinner",
+                    "desc": "Dinner with A at Le Cirque. 🌹 Agenda: Reservation at 8 PM, candlelight dinner & gift exchange."
+                },
+                {
+                    "title": "🌹 Gift",
+                    "subtitle": "Buy flowers and gifts",
+                    "desc": "Pick up roses and chocolates before evening. 💐 Agenda: Surprise your loved one in style."
+                }
+            ]
+        },
+        {
+            "date": 15,
+            "day": "Thursday",
+            "events": []
+        },
+        {
+            "date": 16,
+            "day": "Friday",
+            "events": []
+        },
+        {
+            "date": 17,
+            "day": "Saturday",
+            "events": [
+                {
+                    "title": "🎓 Webinar",
+                    "subtitle": "Angular Masterclass",
+                    "desc": "Live Angular Masterclass at 6 PM via Zoom. 💻 Agenda: Learn about standalone components and signals."
+                }
+            ]
+        },
+        {
+            "date": 18,
+            "day": "Sunday",
+            "events": []
+        },
+        {
+            "date": 19,
+            "day": "Monday",
+            "events": []
+        },
+        {
+            "date": 20,
+            "day": "Tuesday",
+            "events": []
+        },
+        {
+            "date": 21,
+            "day": "Wednesday",
+            "events": []
+        },
+        {
+            "date": 22,
+            "day": "Thursday",
+            "events": [
+                {
+                    "title": "🛒 Shopping",
+                    "subtitle": "Grocery shopping trip",
+                    "desc": "Buy monthly essentials from DMart. 🛍️ Agenda: Stock up on staples, toiletries, and snacks."
+                }
+            ]
+        },
+        {
+            "date": 23,
+            "day": "Friday",
+            "events": []
+        },
+        {
+            "date": 24,
+            "day": "Saturday",
+            "events": []
+        },
+        {
+            "date": 25,
+            "day": "Sunday",
+            "events": [
+                {
+                    "title": "🎂 B'day",
+                    "subtitle": "Nina’s birthday celebration",
+                    "desc": "Celebrate Nina's birthday with a brunch at her place. 🎈 Agenda: Cake cutting, games, and gifts."
+                }
+            ]
+        },
+        {
+            "date": 26,
+            "day": "Monday",
+            "events": []
+        },
+        {
+            "date": 27,
+            "day": "Tuesday",
+            "events": []
+        },
+        {
+            "date": 28,
+            "day": "Wednesday",
+            "events": []
+        },
+        {
+            "date": 29,
+            "day": "Thursday",
+            "events": [
+                {
+                    "title": "🌟 Leap Day",
+                    "subtitle": "Special day celebration",
+                    "desc": "It's a leap year! Celebrate this rare day with something fun. 🌠 Agenda: Reflect, journal, or try something new!"
+                }
+            ]
+        }
+    ]
+}

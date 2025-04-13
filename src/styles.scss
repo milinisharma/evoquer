@@ -1,0 +1,160 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: "Noto Sans";
+    src: url("./assets/fonts/NotoSans-Thin.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Noto Sans";
+    src: url("./assets/fonts/NotoSans-ExtraLight.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Noto Sans";
+    src: url("./assets/fonts/NotoSans-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Noto Sans";
+    src: url("./assets/fonts/NotoSans-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Noto Sans";
+    src: url("./assets/fonts/NotoSans-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Noto Sans";
+    src: url("./assets/fonts/NotoSans-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Noto Sans";
+    src: url("./assets/fonts/NotoSans-Black.ttf") format("truetype");
+    font-weight: 900;
+    /* Use 900 for Black */
+    font-style: normal;
+  }
+  
+  // Source serif 4 styles starts here
+  @font-face {
+    font-family: "Source Serif 4";
+    src: url("./assets/fonts/source-serif-4/SourceSerif4-VariableFont_opsz\,wght.ttf")
+      format("truetype");
+    font-style: normal;
+  }
+  
+  // Hind 4 styles starts here
+  @font-face {
+    font-family: "Hind";
+    src: url("./assets/fonts/hind/Hind-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: bold;
+  }
+  @font-face {
+    font-family: "Hind";
+    src: url("./assets/fonts/hind/Hind-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Hind";
+    src: url("./assets/fonts/hind/Hind-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Hind";
+    src: url("./assets/fonts/hind/Hind-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Hind";
+    src: url("./assets/fonts/hind/Hind-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: bold;
+  }
+  
+  * {
+    font-family: "Noto Sans" !important;
+  }
+
+  // Spinner
+  .spinner {
+    width: 25px; /* Width of the spinner */
+    height: 25px; /* Height of the spinner */
+    border: 4px solid rgba(0, 0, 0, 0.1); /* Light gray border */
+    border-top: 4px solid #ffff; /* color for the spinner */
+    border-radius: 50%; /* Make it a circle */
+    animation: spin 0.75s linear infinite; /* Spin animation */
+  }
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .primary-btn {
+    display: inline-flex;
+    padding: 0.35rem 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 6px;
+    background: #2d5a95;
+    color: var(--background, #f9f9f9);
+    text-align: center;
+    font-family: "Noto Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.07px !important;
+    border: unset !important;
+    &:hover {
+      background: #5d8dcc;
+    }
+  }
+
+  .mdc-dialog__actions {
+    gap: 1rem
+  }
+
+  .darkest-blue-16-700 {
+    color: var(--Gray-900, #181d27);
+    font-family: "Noto Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.08px;
+  }
+
+  .darkest-blue-14-400 {
+    color: var(--Gray-900, #181d27);
+    font-family: "Noto Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.07px;
+  }
